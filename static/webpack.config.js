@@ -6,7 +6,7 @@ var outpath = __dirname + "/dist/";
 
 module.exports = {
 
-    entry: ["./src/index.js", "./css/fixed-data-table.css","./css/main.css"],
+    entry: ["./src/index.js"],
     output: {
         path: outpath,
         filename: "bundle.js"
